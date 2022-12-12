@@ -7,14 +7,9 @@ let pitch = 0;
 function pitchIncrease(){
     pitchNumber.innerHTML = pitch++
 }
-pitchBtn.addEventListener('click',pitchIncrease)
+pitchBtn.addEventListener('click',pitchIncrease);
 
 scoreBtn.addEventListener('click',()=>{
-    <div id="confirm">
-    <p>Did you pitch them</p>
-    <button class="warning" onclick="confirmYes()">Yes</button>
-    <button onclick="confirmNo()">No</button>  
-  </div>
 
 })
 
