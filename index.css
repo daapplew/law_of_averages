@@ -1,0 +1,12 @@
+main{
+    background-color: aquamarine;
+}
+
+#container {
+    border: 2px black solid;
+    display: flex;
+    text-align: center;
+}
+#scoreContainer{
+    margin: 20px;
+}
