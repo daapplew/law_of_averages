@@ -75,3 +75,8 @@ function bookedPlusPitched(){
 }
 bookedPlusPitched()
 
+function timeStamp(){
+    const timestamp = new Date().toISOString();
+  timestampEl.innerHTML = timestamp;
+}
+
